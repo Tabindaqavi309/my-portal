@@ -71,7 +71,7 @@ a {
 }
 
 .intro {
-  background-image: url(./assets/images/4.jpg);
+  background-image: url(./4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
