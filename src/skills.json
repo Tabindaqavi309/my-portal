@@ -1,0 +1,153 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "Successfully completed",
+  "data": [
+    {
+      "languages": ["MVVM", "HTML5", "CSS3", "Bootstrap3", "jQuery"],
+      "imgUrl": ["/uploads/ib-logo.jpg", "/uploads/ib.jpg"],
+      "isActive": true,
+      "_id": "5bc0fb0fdf6d2912044a4d92",
+      "title": "Internet Banking",
+      "description": "Front-end",
+      "sortCode": 1,
+      "visitUrl": "",
+      "date": "2018-10-12T19:50:39.495Z",
+      "__v": 0
+    },
+    {
+      "languages": [
+        "HTML5",
+        "Sass",
+        "MaterializeCss",
+        "jQuery",
+        "Vanilla JavaScript"
+      ],
+      "imgUrl": ["/uploads/crm-logo.jpg", "/uploads/crm.jpg"],
+      "isActive": true,
+      "_id": "5b8a9e783642530020ae4b6a",
+      "title": "CRM",
+      "description": "Front-end",
+      "sortCode": 2,
+      "visitUrl": "",
+      "date": "2018-09-01T14:13:12.896Z",
+      "__v": 0
+    },
+    {
+      "languages": [
+        "Photoshop",
+        "Illustrator",
+        "Sass",
+        "Angular 4",
+        "MaterializeCss"
+      ],
+      "imgUrl": ["/uploads/zindagiweb-logo.jpg", "/uploads/zindagiweb.jpg"],
+      "isActive": true,
+      "_id": "5b8a9e203642530020ae4b69",
+      "title": "Zindagi Web",
+      "description": "Front-end",
+      "sortCode": 3,
+      "visitUrl": "",
+      "date": "2018-09-01T14:11:44.329Z",
+      "__v": 0
+    },
+    {
+      "languages": [
+        "Core PHP",
+        "MySQL",
+        "HTML5",
+        "CSS3",
+        "MaterializeCss",
+        "jQuery"
+      ],
+      "imgUrl": [
+        "/uploads/gorgeousfabric-logo.jpg",
+        "/uploads/gorgeousfabric.jpg"
+      ],
+      "isActive": true,
+      "_id": "5b8a9d603642530020ae4b68",
+      "title": "Gorgeous Fabric",
+      "description": "Full Stack Development",
+      "sortCode": 4,
+      "visitUrl": "http://gorgeousfabric.com.pk/",
+      "date": "2018-09-01T14:08:32.216Z",
+      "__v": 0
+    },
+    {
+      "languages": [
+        "Core PHP",
+        "MySQL",
+        "HTML5",
+        "CSS3",
+        "MaterializeCss",
+        "jQuery"
+      ],
+      "imgUrl": ["/uploads/doortodoor-logo.jpg", "/uploads/doortodoor.jpg"],
+      "isActive": true,
+      "_id": "5b8a9cc83642530020ae4b65",
+      "title": "Door to Door Cargo",
+      "description": "Full Stack Development",
+      "sortCode": 5,
+      "visitUrl": "http://www.doortodoorcargo.co.uk/cargo/",
+      "date": "2018-09-01T14:06:00.665Z",
+      "__v": 0
+    },
+    {
+      "languages": [
+        "Core PHP",
+        "MySQL",
+        "HTML5",
+        "CSS3",
+        "MaterializeCss",
+        "jQuery"
+      ],
+      "imgUrl": ["/uploads/litgmet-logo.jpg", "/uploads/litgmet.jpg"],
+      "isActive": true,
+      "_id": "5b8a9d203642530020ae4b67",
+      "title": "LITGMET",
+      "description": "Full Stack Development",
+      "sortCode": 6,
+      "visitUrl": "",
+      "date": "2018-09-01T14:07:28.987Z",
+      "__v": 0
+    },
+    {
+      "languages": [
+        "Photoshop",
+        "Illustrator",
+        "Slim",
+        "Sass",
+        "MaterializeCss",
+        "jQuery"
+      ],
+      "imgUrl": ["/uploads/yapjob-logo.jpg", "/uploads/yapjob.jpg"],
+      "isActive": true,
+      "_id": "5b8a9ba33642530020ae4b63",
+      "title": "YapJob",
+      "description": "Front-end (Support)",
+      "sortCode": 7,
+      "visitUrl": "https://www.yapjobs.com/",
+      "date": "2018-09-01T14:01:07.166Z",
+      "__v": 0
+    },
+    {
+      "languages": [
+        "Photoshop",
+        "Illustrator",
+        "HTML5",
+        "CSS3",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "imgUrl": ["/uploads/icmap-logo.jpg", "/uploads/icmap.jpg"],
+      "isActive": true,
+      "_id": "5b82e4f85ee776221029c4c5",
+      "title": "ICMA Pakistan",
+      "description": "Front-end",
+      "sortCode": 8,
+      "visitUrl": "https://www.icmap.com.pk/",
+      "date": "2018-08-26T17:35:52.565Z",
+      "__v": 0
+    }
+  ]
+}
