@@ -8,29 +8,47 @@ class Expertise extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      iconName: ["lightbulb", "accusoft", "file code"],
-      color: ["yellow", "seagreen", "darkred"],
-      heading: ["IDEAS", "DESIGN", "DEVELOP"],
-      text: [
-        "I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing user experiences start.",
-        "I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more.",
-        "I design in the browser with HTML(5), CSS(3) and a touch of JavaScript. I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.",
+      data: [
+        {
+          iconName: "lightbulb",
+          color: "yellow",
+          heading: "IDEAS",
+          text:
+            "I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing user experiences start.",
+        },
+        {
+          iconName: "accusoft",
+          color: "seagreen",
+          heading: "DESIGN",
+          text:
+            "I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more.",
+        },
+        {
+          iconName: "file code",
+          color: "darkred",
+          heading: "DEVELOP",
+          text:
+            "I design in the browser with HTML(5), CSS(3) and a touch of JavaScript. I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.",
+        },
       ],
     };
   }
-  render() {
-    var elements = [];
-    for (var i = 0; i < 3; i++) {
-      elements.push(
+
+  renderExpertise = () => {
+    return this.state.data.map((item) => {
+      return (
         <Card>
           <i
-            className={`top-right massive ${this.state.iconName[i]} icon`}
-            style={{ color: this.state.color[i] }}
+            className={`top-right massive ${item.iconName} icon`}
+            style={{ color: item.color }}
           ></i>
-          <Content heading={this.state.heading[i]} text={this.state.text[i]} />
+          <Content heading={item.heading} text={item.text} />
         </Card>
       );
-    }
+    });
+  };
+
+  render() {
     return (
       <section id="Expert" className="Middle">
         <Intro
@@ -43,7 +61,7 @@ class Expertise extends React.Component {
         />
         <div className="expert">
           <h1>My Expertise</h1>
-          <div className="container-5">{elements}</div>
+          <div className="container-5">{this.renderExpertise()}</div>
         </div>
       </section>
     );

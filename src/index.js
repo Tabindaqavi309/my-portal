@@ -32,7 +32,13 @@ const App = () => {
                 <a href="#contact">CONTACT</a>
               </li>
               <li>
-                <a href="/">CV</a>
+                <a
+                  href="https://drive.google.com/file/d/112whOKsqVtwzLf3nlUBI3fR2_ytT_sXF/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CV
+                </a>
               </li>
             </ul>
           </div>

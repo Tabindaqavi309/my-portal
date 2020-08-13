@@ -14,12 +14,21 @@ const Contact = () => {
       <div class="hyper-class">
         <ul>
           <li>
-            <a href="/">
+            <a
+              href="https://www.facebook.com/princess.tabi.500/"
+              title="Facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="huge facebook icon"></i>
             </a>
           </li>
           <li>
-            <a href="/">
+            <a
+              href="https://www.linkedin.com/in/tabinda-qavi-02b693152/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="huge linkedin icon"></i>
             </a>
           </li>
